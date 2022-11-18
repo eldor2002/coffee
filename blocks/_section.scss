@@ -1,0 +1,88 @@
+.work {
+    margin-top: 200px;
+    margin-left: 85px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+  
+    color: #83888f;
+  }
+  .sircle {
+    margin-left: 85px;
+    margin-top: 80px;
+    width: 756px;
+    height: 1px;
+    border: 2px solid #fdd6ba;
+    color: #fdd6ba;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    &:hover {
+      background: rgb(67, 4, 177);
+    }
+  
+    &__item {
+      width: 31px;
+      height: 31px;
+      border-radius: 50%;
+      background: #fefcf7;
+      border: 2px solid #0e8784;
+    }
+    &__item:last-child {
+      margin-left: 30px;
+    }
+  }
+  .count {
+    margin-top: 70px;
+    margin-left: 85px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  
+    .number {
+    
+      &__title {
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+  
+        color: #fdd6ba;
+      }
+      &__subtitle {
+        margin-top: 50px;
+        width: 255px;
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+  
+        color: #333d4b;
+      }
+      &__text {
+        margin-top: 42px;
+        width: 285px;
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        
+  
+        color: #333d4b;
+      }
+    }
+  }
+  .btn{
+    margin-left: 85px;
+    margin-top: 64px;
+    &:active{
+      background: brown;
+      transform: translate(30 deg);
+    }
+  }
+  
